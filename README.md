@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/4a8b47b5-bc58-4b37-bda6-fb989c6e3804)# 📄 Interactive Resume
+# 📄 Interactive Resume
 
 A modern, single-page interactive resume website to showcase your portfolio, technical skills, education, and projects — built using HTML5, CSS3, JavaScript, and Typed.js. This project delivers a dynamic and responsive UI/UX experience for desktop and mobile devices.
 
