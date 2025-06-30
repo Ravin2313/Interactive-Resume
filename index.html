@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<!-- Code Written by -- Ravindra Kumar Shriwas -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ravindra Shriwas | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- header section starts here  -->
+
+    <div id="header">
+      <div class="container">
+        <nav>
+          <h2 class="logo"><span id="R-letter">R</span>avin.</h2>
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <div class="leftSection">
+            Hi, It's <span style="color: #ff004f">Ravindra</span>
+            <div>and I am a passionate</div>
+
+            <!-- Element to contain animated typing -->
+            <span id="element"></span>
+          </div>
+        </div>
+        <a
+          href="/files/RavindraShriwas_Resume_F.pdf"
+          download
+          class="btn btn2"
+          id="CV"
+          >Download CV</a
+        >
+        <!-- <a
+          href="/files/Ravindra_Shriwas_Resume.pdf"
+          download
+          class="btn btn2"
+          id="CV"
+          >Download CV</a
+        > -->
+      </div>
+    </div>
+
+    <!-- about section starts here  -->
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-one">
+            <img src="/images/Ravindra_Ground_image.jpg" alt="Ravindra Image" />
+          </div>
+          <div class="about-col-two">
+            <h1 class="sub-title">About me</h1>
+            <p>
+              My name is Ravindra, and I am currently pursuing Master of
+              Computer Applications (MCA) at Atal Bihari Vajpayee University in
+              Bilaspur , Chhattisgarh. I have a deep passion for programming and
+              am highly enthusiastic about it. I am a determined individual who
+              takes his work seriously. Over the years, I have devoted a
+              significant amount of time to web development and have also worked
+              on numerous real-life projects.
+            </p>
+
+            <div class="tab-titles">
+              <div class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </div>
+              <div class="tab-links" onclick="opentab('education')">
+                Education
+              </div>
+              <!-- <div class="tab-links" onclick="opentab('experience')">
+                Experience
+              </div> -->
+            </div>
+
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>Web Designer</span><br />Designing User Friendly
+                  interfaces
+                </li>
+                <li>
+                  <span>Web Developer</span><br />Building Responsive Websites
+                </li>
+                <li>
+                  <span>Version Control Tools </span><br />Efficiency in version
+                  control tools like git & github
+                </li>
+                <li>
+                  <span>WordPress Developer</span><br />Building beautiful
+                  WordPress sites.
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2023</span><br />Pursuing Master of computer
+                  Applications from Atal Bihari Vajpeyee University.
+                </li>
+                <li>
+                  <span>2022</span><br />Completed Graduation from Atal Bihari
+                  Vajpeyee University.
+                </li>
+                <li><span>2020</span><br />Completed 12th from CGBSE.</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>Web Designer</span><br />Designing User Friendly
+                  interfaces
+                </li>
+                <li>
+                  <span>Web Developer</span><br />Building Responsive Websites
+                </li>
+                <li>
+                  <span>Version Control Tools </span><br />Efficiency in version
+                  control tools like git & github
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- projects sections starts here  -->
+
+    <div id="projects">
+      <div class="container">
+        <h1 class="sub-title">Projects</h1>
+        <div class="project-list">
+          <div class="work">
+            <img src="/images/AmazonCLONEpr.jpg" alt="" />
+            <div class="layer">
+              <h2>Amazon Clone</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
+                reiciendis ipsam.
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="/images/work-2.png" alt="" />
+            <div class="layer">
+              <h2>Notes Duniya</h2>
+              <p>
+                builded a Responsive and beautiful educational notes Websites
+                with WordPress.
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="/images/work-3.png" alt="" />
+            <div class="layer">
+              <h2>Spotify Clone</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
+                reiciendis ipsam temporibus et
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+      </div>
+    </div>
+    <!-- contact section starts here  -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-regular fa-envelope"></i>ravin@demogmai.com</p>
+
+            <div class="social-icons">
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <a
+              href="/files/RavindraShriwas_Resume_F.pdf"
+              download
+              class="btn btn2"
+              id="CV"
+              >Download CV</a
+            >
+          </div>
+          <div class="contact-right">
+            <form>
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="msg"
+                rows="6"
+                placeholder="Your message"
+                required
+              ></textarea>
+              <button type="submit" class="btn sub">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>
+          copyright &copy; Ravin. Made with <i class="fa-solid fa-heart"></i> by
+          Ravindra
+        </p>
+      </div>
+    </div>
+    <a href="#header" id="sticky-btn"
+      ><i class="fa-solid fa-circle-arrow-up" id="upper-arrow"></i
+    ></a>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
