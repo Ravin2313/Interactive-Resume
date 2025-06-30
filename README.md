@@ -1,4 +1,4 @@
-# 📄 Interactive Resume
+![image](https://github.com/user-attachments/assets/4a8b47b5-bc58-4b37-bda6-fb989c6e3804)# 📄 Interactive Resume
 
 A modern, single-page interactive resume website to showcase your portfolio, technical skills, education, and projects — built using HTML5, CSS3, JavaScript, and Typed.js. This project delivers a dynamic and responsive UI/UX experience for desktop and mobile devices.
 
@@ -50,15 +50,11 @@ interactive-resume/
 3. Replace content, images, and resume PDF with your own information.
 4. Deploy it using GitHub Pages, Netlify, or any static hosting platform.
 
-## 📸 Screenshots
-
-_Add preview screenshots or a demo link here._
 
 ## 📬 Contact
 
-- **Email:** your.email@example.com  
-- **LinkedIn:** [Your LinkedIn Profile]  
-- **Portfolio:** [Your Portfolio Website]  
+- **Email:** ravindrashriwas2313@gmail.com 
+- **LinkedIn:** 
 
 ## 📜 License
 
